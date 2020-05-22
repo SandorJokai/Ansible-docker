@@ -12,7 +12,7 @@ Prerequisites:
     with root permissions enabled
   - python 2.7 AND/OR python 3.5 must be installed
   - must be added the hostname and IP's in to /etc/hosts file
-  - In my case, I also use inside the main ansible project directory a hosts file with the followings:
+  - In my case, I also use inside the main ansible project directory a hosts file with the followings:\
     "servername" ansible_host=192.168.1.10 ansible_port=22 ansible_user=root
     .
     .
