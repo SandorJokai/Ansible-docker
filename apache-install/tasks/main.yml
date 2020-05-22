@@ -1,4 +1,4 @@
-# This is the instructs of site.yml where all tasks will be executed. There is included variable that will be substituted
+# This is the instructs of playbook.yml where all tasks will be executed. There is included variable that will be substituted
 # from vars directory. In the end, apache must be restart in order to apply changes.
 
 ---
