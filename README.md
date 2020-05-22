@@ -18,7 +18,7 @@ Prerequisites:
     .
     .
 ------------------------------------------------------------------------
-INSTALL ANSIBLE:
+INSTALL ANSIBLE:\n
 sudo apt update
   Add Ansible APT repository ---> echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu bionic main" | \
                                   sudo tee /etc/apt/sources.list.d/ansible.list
