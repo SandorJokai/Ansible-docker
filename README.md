@@ -25,8 +25,8 @@ sudo apt update\
                                   tee /etc/apt/sources.list.d/ansible.list
 sudo apt install -y gnupg2\
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367\
-sudo apt update
-sudo apt install -y ansible
+sudo apt update\
+sudo apt install -y ansible\
 ansible --version
 
 ------------------------------------------------------------------------
