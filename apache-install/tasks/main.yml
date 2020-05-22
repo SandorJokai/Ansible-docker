@@ -9,7 +9,7 @@
   apt:
     name: apache2
     state: latest
-- name: create custom document root
+- name: create custom document 
   file:
     path: "{{ doc_root }}"
     state: directory
@@ -24,7 +24,7 @@
     mode: 0644
 - name: vhost setup
   template:
-    src: vhost.tpl
+    src: sample-vhost.conf
     dest: /etc/apache2/sites-available/000-default.conf
 - name: apache2-restart
   service:
