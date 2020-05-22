@@ -20,7 +20,7 @@ Prerequisites:
 ------------------------------------------------------------------------
 INSTALL ANSIBLE:
 
-sudo apt update
+sudo apt update\
   Add Ansible APT repository ---> echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu bionic main" | sudo \
                                   tee /etc/apt/sources.list.d/ansible.list
 sudo apt install -y gnupg2\
