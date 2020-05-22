@@ -1,0 +1,32 @@
+# This is the instructs of site.yml where all tasks will be executed. There is included variable that will be substituted
+# from vars directory. In the end, apache must be restart in order to apply changes.
+
+---
+- name: update apt cache
+  apt:
+    update_cache: yes
+- name: install apache
+  apt:
+    name: apache2
+    state: latest
+- name: create custom document root
+  file:
+    path: "{{ doc_root }}"
+    state: directory
+    owner: www-data
+    group: www-data
+- name: index.html copy
+  template:
+    src: index.html.j2
+    dest: "{{ doc_root }}/index.html"
+    owner: www-data
+    group: www-data
+    mode: 0644
+- name: vhost setup
+  template:
+    src: vhost.tpl
+    dest: /etc/apache2/sites-available/000-default.conf
+- name: apache2-restart
+  service:
+    name: apache2
+    state: restarted
