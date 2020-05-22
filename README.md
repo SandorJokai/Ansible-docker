@@ -33,7 +33,7 @@ sudo apt install -y ansible\
 ansible --version
 
 ------------------------------------------------------------------------
-Let's check the connection is ready with root permission:
+Let's check the connection is ready with root permission:\
 ansible "servername" -m ping
 
 Have fun and have a nice play with playbooks! :)
