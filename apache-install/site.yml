@@ -1,0 +1,6 @@
+# Project: install apache webserver to debian-based systems using pre-configured conf and index.html files.
+---
+- hosts: nagios
+  become: yes
+  roles:
+    - apache
