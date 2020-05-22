@@ -1,0 +1,12 @@
+# This is the index.html file. As it can be seen, there are some variables that will be substituted when ansible going to
+# be deployed. After launching the playbok, always the first task that running is the "facts" where all information gathered
+# from the servers which we want to manage remotely. At the end of filename, the extension indicate that is a jinja2 file.
+
+<html>
+<center>
+<h1>This website is running on {{ ansible_os_family}}</h1>
+<h3>This computer's hostname is {{ ansible_hostname }}</h3>
+<small>This index file's version is: {{ file_version }}</small>
+{# This is a place of comment #}
+</center>
+</html>
