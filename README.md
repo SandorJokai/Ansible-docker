@@ -23,7 +23,7 @@ INSTALL ANSIBLE:
 
 sudo apt update\
   Add Ansible APT repository ---> echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu bionic main" | sudo \
-                                  tee /etc/apt/sources.list.d/ansible.list
+                                  tee /etc/apt/sources.list.d/ansible.list\
 sudo apt install -y gnupg2\
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367\
 sudo apt update\
