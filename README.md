@@ -21,6 +21,8 @@ Prerequisites:
 ------------------------------------------------------------------------
 INSTALL ANSIBLE:
 
+source: https://computingforgeeks.com/how-to-install-ansible-awx-on-debian-buster/
+
 sudo apt update\
   Add Ansible APT repository ---> echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu bionic main" | sudo \
                                   tee /etc/apt/sources.list.d/ansible.list\
