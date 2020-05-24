@@ -1,8 +1,8 @@
-                                 ------------- INTRODUCE THE PROJECT: -------------
+                                 ------------- Introduce the project: -------------
 
 The final manifestation of this is running an ampache music-streaming service on apache webserver with a mariadb
 DB system behind, orchestrating with docker-compose. And the whole procedure from installing components until run-
-ning the service is managing by an ansible playbook. I was just beginning to see the greatness of this...
+
 -----------------------------------------------
 Prerequisites on managed systems ( Ubuntu 16.04 x86_64 in my case ):
   - Openssh-server must be installed
