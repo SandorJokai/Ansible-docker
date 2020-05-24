@@ -5,8 +5,8 @@ The final manifestation of this is running an ampache music-streaming service on
 DB system behind, orchestrating with docker-compose. And the whole procedure from installing components until run-
 ning the service is managing by an ansible plyabook. I was just beginning to see the greatness of this...
 
------------------------------------------------
 Prerequisites on managed systems ( Ubuntu 16.04 x86_64 in my case ):
+-----------------------------------------------
   - Openssh-server must be installed
   - must be configured an established connection with ansible
   - must be enabled the root login via ssh with modify in /etc/ssh/sshd_config
