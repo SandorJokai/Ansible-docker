@@ -1,4 +1,4 @@
-                                 ------------- Introduce the project: -------------
+                                 ------------- INTRODUCE THE PROJECT: -------------
 
 The final manifestation of this is running an ampache music-streaming service on apache webserver with a mariadb
 DB system behind, orchestrating with docker-compose. And the whole procedure from installing components until run-
