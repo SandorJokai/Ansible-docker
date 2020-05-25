@@ -13,12 +13,15 @@ Prerequisites on managed systems ( Ubuntu 16.04 x86_64 in my case ):
   - must be configured an established connection with ansible
   - must be enabled the root login via ssh with modify in /etc/ssh/sshd_config
 -----------------------------------------------
-Process time approx.: 30 min
+Process time approx.: 20 min
 -----------------------------------------------
 After finish running the playbook, check in a browser by typing the hostname of the managed machine (or it's IP's)
 and ampache's welcome site will be showed up.
 Type the mysql's credentials which is ampache in my case (USERNAME=PASSWORD=ampache) change the mysql hostname
 from localhost to db, take the tick out from DB create as it is already done and enjoy! :)
+caution: It could go to an error whilst the playbook.yml last task is running, it happens when those two servers
+(music-streamer_web_1 and music-streamer_db_1) could not connect to each other. Solution for that is just run another
+time the ansible-playbook playbook.yml and should everything work just fine.
 
 Path of sample music dir for create a catalog in web:
 -----------------------------------------------
