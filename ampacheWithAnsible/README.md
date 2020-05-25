@@ -17,7 +17,7 @@ Process time approx.: 30 min
 -----------------------------------------------
 After finish running the playbook, check in a browser by typing the hostname of the managed machine (or it's IP's)
 and ampache's welcome site will be showed up.
-Type the mysql's credentials which is ampache in my case (USERNAME=PASSWORD=DATABASE) change the mysql hostname
+Type the mysql's credentials which is ampache in my case (USERNAME=PASSWORD=ampache) change the mysql hostname
 from localhost to db, take the click out from DB create as it is already done and enjoy! :)
 
 Path of sample music dir for create a catalog in web:
