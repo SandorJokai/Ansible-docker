@@ -2,7 +2,7 @@ Introduce the project:
 -----------------------------------------------
 
 According to use this is running an ampache music-streaming service on apache webserver with a mariadb
-DB system behind, orchestrating with docker-compose. And the whole procedure from installing components until 
+Database system behind, orchestrating with docker-compose. And the whole procedure from installing components until 
 running the service is managing by an ansible plyabook. I was just beginning to see the greatness of this...
 
 official website of the free licenced (AGPLv3) ampache: http://ampache.org/
