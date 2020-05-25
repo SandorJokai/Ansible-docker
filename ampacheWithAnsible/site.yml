@@ -1,0 +1,22 @@
+---
+- hosts: webserver
+  become: yes
+  pre_tasks:
+    - name: apt update
+      apt: update_cache=yes force_apt_get=yes cache_valid_time=3600
+    - name: docker install
+      apt: name=docker.io state=latest
+    # - name: install pip for python3
+    #   apt: name=python3-pip state=absent
+    - name: install pip for python2
+      apt: name=python-pip state=latest
+    - name: python-setuptools install
+      apt: name=python-setuptools state=latest
+      - name: install docker module
+      pip: name=docker state=latest
+    - name: pip upgrade
+      pip: name=pip state=forcereinstall
+    - name: install docker-compose
+      pip: name=docker-compose state=latest
+  roles:
+    - ampache-docker
