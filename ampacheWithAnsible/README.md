@@ -21,7 +21,7 @@ Type the mysql's credentials which is ampache in my case (USERNAME=PASSWORD=ampa
 from localhost to db, take the tick out from DB create as it is already done and enjoy! :)
 
 caution: It could go to an error whilst the playbook.yml last task is running, it happens when the application
-server (music-streamer_web_1) could not start for first. Solution for that is just run another time the ansible-playbook playbook.yml command and should everything work just fine.
+server (music-streamer_web_1) could not start for first. Solution for that is just run another time the ansible-playbook playbook.yml command and everything should work just fine.
 
 Path of sample music dir for create a catalog in web:
 -----------------------------------------------
