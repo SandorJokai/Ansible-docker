@@ -10,7 +10,7 @@ official website of the free licenced (AGPLv3) ampache: http://ampache.org/
 Prerequisites on managed systems ( Ubuntu 16.04 x86_64 in my case ):
 -----------------------------------------------
   - Openssh-server must be installed
-  - must be configured an established connection with ansible (update /etc/hosts)
+  - must be configured an established connection with ansible
   - must be enabled the root login via ssh with modify in /etc/ssh/sshd_config
 -----------------------------------------------
 Process time approx.: 30 min
