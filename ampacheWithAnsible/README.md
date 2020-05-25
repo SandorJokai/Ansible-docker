@@ -5,6 +5,8 @@ According to use this is running an ampache music-streaming service on apache we
 DB system behind, orchestrating with docker-compose. And the whole procedure from installing components until 
 running the service is managing by an ansible plyabook. I was just beginning to see the greatness of this...
 
+official website of the free licenced (AGPLv3) ampache: http://ampache.org/
+
 Prerequisites on managed systems ( Ubuntu 16.04 x86_64 in my case ):
 -----------------------------------------------
   - Openssh-server must be installed
