@@ -2,6 +2,8 @@
 - hosts: webserver
   become: yes
   pre_tasks:
+    - name: stop apache if exists
+      service: name=apache2 state=stopped
     - name: apt update
       apt: update_cache=yes force_apt_get=yes cache_valid_time=3600
     - name: docker install
