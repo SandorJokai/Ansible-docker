@@ -1,0 +1,6 @@
+---
+work_dir: /var/www/ampache
+# This is a full path of configs on my computer
+files: /home/shanx/DevOps/ansible/AMPACHE/ampache-docker/files/
+musics_work_dir: "{{ work_dir }}/musics"
+sample: "/home/shanx/Zenek/Music/Tankcsapda-Ha\ zajt\ akartok/"
