@@ -22,6 +22,7 @@ from localhost to db, take the tick out from DB create as it is already done and
 
 caution: It could go to an error whilst the playbook.yml last task is running, it happens when the application
 server (music-streamer_web_1) could not start for first. Solution for that is just run another time the ansible-playbook playbook.yml command and everything should work just fine.
+Once it's up and running, it will be even after a reboot.
 
 Path of sample music dir for create a catalog in web:
 -----------------------------------------------
