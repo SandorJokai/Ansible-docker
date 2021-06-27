@@ -32,27 +32,27 @@ source: [install ansible](https://computingforgeeks.com/how-to-install-ansible-a
 <h4>step 1: add ansible repository</h4>
 
 - *sudo apt update*
-- echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu bionic main" | sudo tee /etc/apt/sources.list.d/ansible.list
+- *echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu bionic main" | sudo tee /etc/apt/sources.list.d/ansible.list*
 
 <h4>step 2: install gnupg for sign the repository</h4>
 
-- sudo apt install -y gnupg2
+- *sudo apt install -y gnupg2*
 
 <h4>step 3: implement the ansible repository public key</h4>
 
-- sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367
+- *sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367*
 
 <h4>step 4: update the repositories in order to use ansible</h4>
 
-- sudo apt update
+- *sudo apt update*
 
 <h4>step 5: finally let's install ansible</h4>
 
-- sudo apt install -y ansible
+- *sudo apt install -y ansible*
 
 <h4>Check the version:</h4>
 
-- ansible --version
+- *ansible --version*
 
 ------------------------------------------------------------------------
 <h4>check the connection</h4>
