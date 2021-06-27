@@ -27,7 +27,7 @@ INSTALL ANSIBLE:
 
 source: [install ansible](https://computingforgeeks.com/how-to-install-ansible-awx-on-debian-buster/)
 
-<h4>Steps of installing</h4>
+<h1>Steps of installing</h1>
 
 <h6>step 1:</h6> sudo apt update\
   Add Ansible APT repository ---> echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu bionic main" | sudo \
@@ -36,6 +36,7 @@ source: [install ansible](https://computingforgeeks.com/how-to-install-ansible-a
 <h6>step 3:</h6> sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367\
 <h6>step 4:</h6>sudo apt update\
 <h6>step 5:</h6>sudo apt install -y ansible\
+<h4>Check the version:</h4>
 ansible --version
 
 ------------------------------------------------------------------------
