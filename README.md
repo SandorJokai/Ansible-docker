@@ -11,7 +11,7 @@ Unix-like systems, and can configure both Unix-like systems as well as Microsoft
 
 source: [wikipedia-ansible](https://en.wikipedia.org/wiki/Ansible_(software))
 
-Prerequisites:
+<h1>Prerequisites</h1>
 
   - working ssh connection (apt install openssh-server)
     with a key-based authentication to the managed servers (ssh-copy-id -i ~/.ssh/id_rsa.pub root@"servername")
