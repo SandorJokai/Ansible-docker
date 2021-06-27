@@ -29,7 +29,7 @@ source: [install ansible](https://computingforgeeks.com/how-to-install-ansible-a
 
 <h1>Steps of installing</h1>
 
-<h4>step 1: add ansible repository</h4>
+<h3>step 1: add ansible repository</h3>
 
 - *sudo apt update*
 - *echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu bionic main" | sudo tee /etc/apt/sources.list.d/ansible.list*
