@@ -1,3 +1,9 @@
+![npm package](https://img.shields.io/badge/ubuntu-19.03.8-purple.svg)
+![npm package](https://img.shields.io/badge/ansible-19.03.8-black.svg)
+![npm package](https://img.shields.io/badge/python-2.7.12-blue.svg)
+![npm package](https://img.shields.io/badge/openssh-7.2p2-yellow.svg)
+
+
 Ansible
 ------------------------------------------------------------------------
 Ansible is an open-source software provisioning, configuration management, and application-deployment tool. It runs on many
@@ -37,3 +43,8 @@ Let's check the connection is ready with root permission:\
 ansible "servername" -m ping
 
 Have fun and have a nice play with playbooks! :)
+
+![npm package](https://img.shields.io/badge/ubuntu-19.03.8-purple.svg)
+![npm package](https://img.shields.io/badge/ansible-19.03.8-black.svg)
+![npm package](https://img.shields.io/badge/python-2.7.12-blue.svg)
+![npm package](https://img.shields.io/badge/openssh-7.2p2-yellow.svg)
