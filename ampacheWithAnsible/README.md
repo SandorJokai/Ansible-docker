@@ -2,11 +2,11 @@
 ![npm package](https://img.shields.io/badge/docker-18.09.7-blue.svg)
 ![npm package](https://img.shields.io/badge/docker-compose-1.26.0-darkblue.svg)
 ![npm package](https://img.shields.io/badge/ansible-2.9.23-black.svg)
-![npm package](https://img.shields.io/badge/python-2.7.12-blue.svg)
+![npm package](https://img.shields.io/badge/python-2.7.12-lightblue.svg)
 ![npm package](https://img.shields.io/badge/openssh-7.2p2-yellow.svg)
-![npm package](https://img.shields.io/badge/apache-2.4.38-purple.svg)
-![npm package](https://img.shields.io/badge/mariadb-10.3.29-yellow.svg)
-![npm package](https://img.shields.io/badge/ampache-4.1.1-yellow.svg)
+![npm package](https://img.shields.io/badge/apache-2.4.38-cyklamen.svg)
+![npm package](https://img.shields.io/badge/mariadb-10.3.29-grey.svg)
+![npm package](https://img.shields.io/badge/ampache-4.1.1-orange.svg)
 
 <h1>Introduce the project</h1>
 
