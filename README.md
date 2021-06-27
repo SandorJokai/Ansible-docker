@@ -30,7 +30,8 @@ source: [install ansible](https://computingforgeeks.com/how-to-install-ansible-a
 <h1>Steps of installing</h1>
 
 <h6>step 1: add ansible repository</h6>
-sudo apt update\
+*sudo apt update*
+
 *echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu bionic main" | sudo tee /etc/apt/sources.list.d/ansible.list*
 
 <h6>step 2: install gnupg for sign the repository</h6>
