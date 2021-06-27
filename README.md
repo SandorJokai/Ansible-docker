@@ -1,5 +1,5 @@
-![npm package](https://img.shields.io/badge/ubuntu-19.03.8-purple.svg)
-![npm package](https://img.shields.io/badge/ansible-19.03.8-black.svg)
+![npm package](https://img.shields.io/badge/ubuntu-16.04.6-purple.svg)
+![npm package](https://img.shields.io/badge/ansible-2.0.0.2-black.svg)
 ![npm package](https://img.shields.io/badge/python-2.7.12-blue.svg)
 ![npm package](https://img.shields.io/badge/openssh-7.2p2-yellow.svg)
 
@@ -44,7 +44,7 @@ ansible "servername" -m ping
 
 Have fun and have a nice play with playbooks! :)
 
-![npm package](https://img.shields.io/badge/ubuntu-19.03.8-purple.svg)
-![npm package](https://img.shields.io/badge/ansible-19.03.8-black.svg)
+![npm package](https://img.shields.io/badge/ubuntu-16.04.6-purple.svg)
+![npm package](https://img.shields.io/badge/ansible-2.0.0.2-black.svg)
 ![npm package](https://img.shields.io/badge/python-2.7.12-blue.svg)
 ![npm package](https://img.shields.io/badge/openssh-7.2p2-yellow.svg)
