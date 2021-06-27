@@ -22,11 +22,6 @@ source: [wikipedia-ansible](https://en.wikipedia.org/wiki/Ansible_(software))
 
   - must be added the hostname and IP's in to /etc/hosts file
 
-  - In my case, I also use inside the main ansible project directory (e.g./home/user/ansible) a hosts file with
-    the followings:
-    
-    *"servername" ansible_host=192.168.1.10 ansible_port=22 ansible_user=root*
-
 ------------------------------------------------------------------------
 INSTALL ANSIBLE:
 
@@ -54,6 +49,12 @@ source: [install ansible](https://computingforgeeks.com/how-to-install-ansible-a
 <h3>step 5: finally let's install ansible</h3>
 
 - *sudo apt install -y ansible*
+
+<h3>step 6: edit hostfile</h3>
+
+There's a host file in the main ansible directory (e.g./home/user/ansible), edit with the followings:
+    
+- *"servername" ansible_host=192.168.1.10 ansible_port=22 ansible_user=root*
 
 <h3>Check the version:</h3>
 
