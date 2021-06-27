@@ -5,7 +5,7 @@
 ![npm package](https://img.shields.io/badge/python-2.7.12-blue.svg)
 ![npm package](https://img.shields.io/badge/openssh-7.2p2-yellow.svg)
 ![npm package](https://img.shields.io/badge/apache-2.4.38-cyklamen.svg)
-![npm package](https://img.shields.io/badge/mariadb-10.3.29-red.svg)
+![npm package](https://img.shields.io/badge/mariadb-10.3.29-brown.svg)
 ![npm package](https://img.shields.io/badge/ampache-4.1.1-orange.svg)
 
 <h1>Introduce the project</h1>
