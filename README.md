@@ -32,10 +32,10 @@ source: [install ansible](https://computingforgeeks.com/how-to-install-ansible-a
 <h6>step 1:</h6> sudo apt update\
   Add Ansible APT repository ---> echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu bionic main" | sudo \
                                   tee /etc/apt/sources.list.d/ansible.list\
-<p>step 2:</p> sudo apt install -y gnupg2\
-step 3: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367\
-sudo apt update\
-sudo apt install -y ansible\
+<h6>step 2:</h6> sudo apt install -y gnupg2\
+<h6>step 3:</h6> sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367\
+<h6>step 4:</h6>sudo apt update\
+<h6>step 5:</h6>sudo apt install -y ansible\
 ansible --version
 
 ------------------------------------------------------------------------
