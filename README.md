@@ -1,5 +1,5 @@
 ![npm package](https://img.shields.io/badge/ubuntu-16.04.6-purple.svg)
-![npm package](https://img.shields.io/badge/ansible-2.0.0.2-black.svg)
+![npm package](https://img.shields.io/badge/ansible-2.9.23-black.svg)
 ![npm package](https://img.shields.io/badge/python-2.7.12-blue.svg)
 ![npm package](https://img.shields.io/badge/openssh-7.2p2-yellow.svg)
 
@@ -42,7 +42,7 @@ source: [install ansible](https://computingforgeeks.com/how-to-install-ansible-a
 
 - *sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367*
 
-<h3>step 4: update the repositories in order to use ansible</h3>
+<h3>step 4: update the repositories in order to install ansible</h3>
 
 - *sudo apt update*
 
@@ -62,6 +62,6 @@ source: [install ansible](https://computingforgeeks.com/how-to-install-ansible-a
 Have fun and have a nice play with playbooks! :)
 
 ![npm package](https://img.shields.io/badge/ubuntu-16.04.6-purple.svg)
-![npm package](https://img.shields.io/badge/ansible-2.0.0.2-black.svg)
+![npm package](https://img.shields.io/badge/ansible-2.9.23-black.svg)
 ![npm package](https://img.shields.io/badge/python-2.7.12-blue.svg)
 ![npm package](https://img.shields.io/badge/openssh-7.2p2-yellow.svg)
