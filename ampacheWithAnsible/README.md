@@ -1,3 +1,13 @@
+![npm package](https://img.shields.io/badge/ubuntu-16.04.6-purple.svg)
+![npm package](https://img.shields.io/badge/docker-18.09.7-blue.svg)
+![npm package](https://img.shields.io/badge/docker-compose-1.26.0-darkblue.svg)
+![npm package](https://img.shields.io/badge/ansible-2.9.23-black.svg)
+![npm package](https://img.shields.io/badge/python-2.7.12-blue.svg)
+![npm package](https://img.shields.io/badge/openssh-7.2p2-yellow.svg)
+![npm package](https://img.shields.io/badge/apache-2.4.38-purple.svg)
+![npm package](https://img.shields.io/badge/mariadb-10.3.29-yellow.svg)
+![npm package](https://img.shields.io/badge/ampache-4.1.1-yellow.svg)
+
 <h1>Introduce the project</h1>
 
 The concept of use this is running the well-known ampache music-streaming service on apache webserver with a mariadb
@@ -13,7 +23,7 @@ official website of the free licenced (AGPLv3) [ampache](http://ampache.org/)
 - must be configured an established connection with ansible
 - must be enabled the root login via ssh (*/etc/ssh/sshd_config*)
 
-<h4>Process time approx.: 20 min</h4>
+<h3>Process time approx.: 20 min</h3>
 
 After finished the running the playbook, check in a browser by typing the hostname of the managed machine (or it's IP's)
 and ampache's welcome site will be shown.
