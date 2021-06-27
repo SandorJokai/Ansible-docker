@@ -40,7 +40,7 @@ source: [install ansible](https://computingforgeeks.com/how-to-install-ansible-a
 ansible --version
 
 ------------------------------------------------------------------------
-Let's check the connection is ready with root permission:\
+<h4>check the connection</h4>
 ansible "servername" -m ping
 
 Have fun and have a nice play with playbooks! :)
