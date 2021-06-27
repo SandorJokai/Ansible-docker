@@ -1,6 +1,6 @@
 ![npm package](https://img.shields.io/badge/ubuntu-16.04.6-purple.svg)
 ![npm package](https://img.shields.io/badge/docker-18.09.7-lightblue.svg)
-![npm package](https://img.shields.io/badge/docker-compose-1.26.0-lightblue.svg)
+![npm package](https://img.shields.io/badge/docker_compose-1.26.0-lightblue.svg)
 ![npm package](https://img.shields.io/badge/ansible-2.9.23-black.svg)
 ![npm package](https://img.shields.io/badge/python-2.7.12-blue.svg)
 ![npm package](https://img.shields.io/badge/openssh-7.2p2-yellow.svg)
