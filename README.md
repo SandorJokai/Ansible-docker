@@ -16,7 +16,7 @@ source: [wikipedia-ansible](https://en.wikipedia.org/wiki/Ansible_(software))
   - working ssh connection (apt install openssh-server)
     with a key-based authentication to the managed servers (ssh-copy-id -i ~/.ssh/id_rsa.pub root@"servername")
     with root permissions enabled 
-    <h6>if there's no id_rsa* create it first: *ssh-keygen*</h6>
+    <h6>note: if there's no id_rsa* create it first: *ssh-keygen*</h6>
     
   - python 2.7 AND/OR python 3.5 must be installed
 
