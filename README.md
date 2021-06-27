@@ -9,7 +9,7 @@ Ansible
 Ansible is an open-source software provisioning, configuration management, and application-deployment tool. It runs on many
 Unix-like systems, and can configure both Unix-like systems as well as Microsoft Windows...
 
-source: https://en.wikipedia.org/wiki/Ansible_(software)
+source: [wikipedia-ansible](https://en.wikipedia.org/wiki/Ansible_(software))
 
 Prerequisites:
 
@@ -27,7 +27,7 @@ Prerequisites:
 ------------------------------------------------------------------------
 INSTALL ANSIBLE:
 
-source: https://computingforgeeks.com/how-to-install-ansible-awx-on-debian-buster/
+source: [install ansible](https://computingforgeeks.com/how-to-install-ansible-awx-on-debian-buster/)
 
 sudo apt update\
   Add Ansible APT repository ---> echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu bionic main" | sudo \
