@@ -22,7 +22,9 @@ source: [wikipedia-ansible](https://en.wikipedia.org/wiki/Ansible_(software))
   - must be added the hostname and IP's in to /etc/hosts file
 
 ------------------------------------------------------------------------
-INSTALL ANSIBLE:
+<h2>Install Ansible</h2>
+
+How to install in Debian10 (*buster*)
 
 source: [install ansible](https://computingforgeeks.com/how-to-install-ansible-awx-on-debian-buster/)
 
