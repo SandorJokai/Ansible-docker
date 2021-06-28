@@ -1,7 +1,7 @@
 <h2>Usage</h2>
 
 ```bash
-    ansible-playbok playbook.yml
+ansible-playbok playbook.yml
 ```
 
 There are only 4 lines in playbook.yml...
