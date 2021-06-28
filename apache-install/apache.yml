@@ -1,0 +1,17 @@
+---
+- hosts: webserver
+  become: True
+  tasks:
+  - name: install apache
+    yum:
+      name: "httpd"
+      state: "present"
+  - name: start apache
+    service: 
+      name: httpd
+      state: started
+      enabled: True
+  - name: deploy
+    copy:
+      src: index.html
+      dest: /var/www/html
