@@ -13,5 +13,5 @@
       enabled: True
   - name: deploy
     copy:
-      src: index.html.j2
+      src: index.html
       dest: /var/www/html
