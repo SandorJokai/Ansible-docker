@@ -1,7 +1,8 @@
 <h2>Usage</h2>
 
 ```bash
-ansible-playbok playbook.yml```
+    ansible-playbok playbook.yml
+```
 
 There are only 4 lines in playbook.yml...
 The way how ansible works is searching for files basically. Ansible will examine *playbook.yml* for first. There are *roles* section in that file. It will be searched for more information in *apache* directory then as the name matched in the name of role. In *apache* there more directories, but ansible will continue in *tasks* directory. 
