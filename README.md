@@ -20,6 +20,7 @@ source: [wikipedia-ansible](https://en.wikipedia.org/wiki/Ansible_(software))
   ```
   
   <h6>note: if there's no id_rsa* create it first:</h6>
+  
   ```bash
   ssh-keygen
   ```
