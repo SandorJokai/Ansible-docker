@@ -13,9 +13,13 @@ source: [wikipedia-ansible](https://en.wikipedia.org/wiki/Ansible_(software))
 
 <h2>Prerequisites</h2>
 
-  - established ssh connection between the host and the managed clients (ssh-copy-id -i ~/.ssh/id_rsa.pub root@"servername")
+  - established ssh connection between the host and the managed clients
     Only work with root privileges.
-    <h6>note: if there's no id_rsa* create it first: *ssh-keygen*</h6>
+  ```bash
+  ssh-copy-id -i ~/.ssh/id_rsa.pub root@"servername"
+  ```
+  
+  <h6>note: if there's no id_rsa* create it first: *ssh-keygen*</h6>
     
   - python 2.7 AND/OR python 3.5 must be installed
 
