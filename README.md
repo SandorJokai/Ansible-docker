@@ -19,7 +19,10 @@ source: [wikipedia-ansible](https://en.wikipedia.org/wiki/Ansible_(software))
   ssh-copy-id -i ~/.ssh/id_rsa.pub root@"servername"
   ```
   
-  <h6>note: if there's no id_rsa* create it first: *ssh-keygen*</h6>
+  <h6>note: if there's no id_rsa* create it first:</h6>
+  ```bash
+  ssh-keygen
+  ```
     
   - python 2.7 AND/OR python 3.5 must be installed
 
